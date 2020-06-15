@@ -6,33 +6,33 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('home', '0002_load_initial_data'),
+        ("home", "0002_load_initial_data"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='customtext',
-            name='bvfjghfghfj',
+            model_name="customtext",
+            name="bvfjghfghfj",
             field=models.PositiveIntegerField(blank=True, null=True),
         ),
         migrations.AddField(
-            model_name='customtext',
-            name='ghfjghfjhgfj',
+            model_name="customtext",
+            name="ghfjghfjhgfj",
             field=models.FloatField(blank=True, null=True),
         ),
         migrations.AddField(
-            model_name='customtext',
-            name='hfkhgfhkjhg',
+            model_name="customtext",
+            name="hfkhgfhkjhg",
             field=models.SlugField(blank=True, null=True),
         ),
         migrations.AddField(
-            model_name='customtext',
-            name='hgfjhgfjh',
+            model_name="customtext",
+            name="hgfjhgfjh",
             field=models.PositiveIntegerField(blank=True, null=True),
         ),
         migrations.AddField(
-            model_name='customtext',
-            name='khgfjhgfkhgf',
+            model_name="customtext",
+            name="khgfjhgfkhgf",
             field=models.PositiveSmallIntegerField(blank=True, null=True),
         ),
     ]
